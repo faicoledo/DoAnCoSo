@@ -9,3 +9,8 @@ C:\DoAnCoSo\LMS\LMSApp\LMS.Application\obj\Debug\net9.0\LMS.Application.dll
 C:\DoAnCoSo\LMS\LMSApp\LMS.Application\obj\Debug\net9.0\refint\LMS.Application.dll
 C:\DoAnCoSo\LMS\LMSApp\LMS.Application\obj\Debug\net9.0\LMS.Application.pdb
 C:\DoAnCoSo\LMS\LMSApp\LMS.Application\obj\Debug\net9.0\ref\LMS.Application.dll
+C:\DoAnCoSo\LMS\LMSApp\LMS.Application\obj\Debug\net9.0\LMS.Application.csproj.AssemblyReference.cache
+C:\DoAnCoSo\LMS\LMSApp\LMS.Application\obj\Debug\net9.0\LMS.Application.sourcelink.json
+C:\DoAnCoSo\LMS\LMSApp\LMS.Application\bin\Debug\net9.0\LMS.Domain.dll
+C:\DoAnCoSo\LMS\LMSApp\LMS.Application\bin\Debug\net9.0\LMS.Domain.pdb
+C:\DoAnCoSo\LMS\LMSApp\LMS.Application\obj\Debug\net9.0\LMS.Appl.3451E0AD.Up2Date

@@ -12,3 +12,4 @@ C:\DoAnCoSo\LMS\LMSApp\LMS.Domain\obj\Debug\net9.0\ref\LMS.Domain.dll
 C:\DoAnCoSo\LMS\LMSApp\LMS.Domain\bin\Debug\net9.0\LMS.Domain.runtimeconfig.json
 C:\DoAnCoSo\LMS\LMSApp\LMS.Domain\obj\Debug\net9.0\LMS.Domain.csproj.AssemblyReference.cache
 C:\DoAnCoSo\LMS\LMSApp\LMS.Domain\obj\Debug\net9.0\LMS.Domain.genruntimeconfig.cache
+C:\DoAnCoSo\LMS\LMSApp\LMS.Domain\obj\Debug\net9.0\LMS.Domain.sourcelink.json

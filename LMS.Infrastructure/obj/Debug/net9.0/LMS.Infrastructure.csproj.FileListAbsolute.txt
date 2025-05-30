@@ -17,3 +17,4 @@ C:\DoAnCoSo\LMS\LMSApp\LMS.Infrastructure\obj\Debug\net9.0\LMS.Infrastructure.pd
 C:\DoAnCoSo\LMS\LMSApp\LMS.Infrastructure\obj\Debug\net9.0\ref\LMS.Infrastructure.dll
 C:\DoAnCoSo\LMS\LMSApp\LMS.Infrastructure\bin\Debug\net9.0\LMS.Infrastructure.runtimeconfig.json
 C:\DoAnCoSo\LMS\LMSApp\LMS.Infrastructure\obj\Debug\net9.0\LMS.Infrastructure.genruntimeconfig.cache
+C:\DoAnCoSo\LMS\LMSApp\LMS.Infrastructure\obj\Debug\net9.0\LMS.Infrastructure.sourcelink.json
