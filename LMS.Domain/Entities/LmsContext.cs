@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using LMS.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace LMS.Infrastructure;
+namespace LMS.Domain.Entities;
 
 public partial class LmsContext : DbContext
 {
@@ -34,8 +33,6 @@ public partial class LmsContext : DbContext
 
     public virtual DbSet<Role> Roles { get; set; }
 
-    public virtual DbSet<SmartApp> SmartApps { get; set; }
-
     public virtual DbSet<UserActivityLog> UserActivityLogs { get; set; }
 
     public virtual DbSet<UserNotification> UserNotifications { get; set; }
@@ -43,6 +40,10 @@ public partial class LmsContext : DbContext
     public virtual DbSet<UserProfile> UserProfiles { get; set; }
 
     public virtual DbSet<UserRole> UserRoles { get; set; }
+
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
+        => optionsBuilder.UseSqlServer("Data Source=DESKTOP-6UK7LT7;Initial Catalog=LMS;Integrated Security=True;Trust Server Certificate=True");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -134,11 +135,6 @@ public partial class LmsContext : DbContext
             entity.HasKey(e => e.RoleId).HasName("PK_Roles_RoleId");
         });
 
-        modelBuilder.Entity<SmartApp>(entity =>
-        {
-            entity.HasKey(e => e.SmartAppId).HasName("PK_SmartApp_SmartAppId");
-        });
-
         modelBuilder.Entity<UserActivityLog>(entity =>
         {
             entity.HasKey(e => e.LogId).HasName("PK_UserActivityLog_LogId");
@@ -176,10 +172,6 @@ public partial class LmsContext : DbContext
             entity.HasOne(d => d.Role).WithMany(p => p.UserRoles)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_UserRole_Roles");
-
-            entity.HasOne(d => d.SmartApp).WithMany(p => p.UserRoles)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK_UserRole_SmartApp");
 
             entity.HasOne(d => d.User).WithMany(p => p.UserRoles)
                 .OnDelete(DeleteBehavior.ClientSetNull)

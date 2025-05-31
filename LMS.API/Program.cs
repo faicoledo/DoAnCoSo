@@ -3,6 +3,7 @@ using LMS.API.Filters;
 using LMS.Application;
 using LMS.Application.DTOs;
 using LMS.Application.Interfaces.Courses;
+using LMS.Application.Interfaces.QuestionChoice;
 using LMS.Application.Services;
 using LMS.Domain.Entities;
 using LMS.Infrastructure;
@@ -30,6 +31,10 @@ namespace LMS.API
 
             builder.Services.AddScoped<ICourseService, CourseService>();
             builder.Services.AddScoped<ICourseRepository, CourseRepository>();
+            builder.Services.AddScoped<IQuestionService, QuestionService>();
+            builder.Services.AddScoped<IChoiceService, ChoiceService>();
+            builder.Services.AddScoped<IQuestionRepository, QuestionRepository>();
+            builder.Services.AddScoped<IChoiceRepository, ChoiceRepository>();
 
             builder.Services.AddCors(options =>
             {

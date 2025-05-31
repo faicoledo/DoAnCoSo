@@ -1,5 +1,116 @@
 [
   {
+    "ContainingType": "LMS.API.Controllers.ChoiceController",
+    "Method": "CreateChoice",
+    "RelativePath": "api/Choice",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "LMS.Application.DTOs.CreateChoiceDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS.API.Controllers.ChoiceController",
+    "Method": "UpdateChoice",
+    "RelativePath": "api/Choice/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "LMS.Application.DTOs.UpdateChoiceDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS.API.Controllers.ChoiceController",
+    "Method": "UpdateUserChoice",
+    "RelativePath": "api/Choice/{Id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "LMS.Application.DTOs.UpdateUserChoice",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS.API.Controllers.ChoiceController",
+    "Method": "DeleteChoice",
+    "RelativePath": "api/Choice/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS.API.Controllers.ChoiceController",
+    "Method": "GetChoicesByQuestionId",
+    "RelativePath": "api/Choice/{questionId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "questionId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS.API.Controllers.ChoiceController",
+    "Method": "GetChoiceById",
+    "RelativePath": "api/Choice/{questionId}/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "questionId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "LMS.API.Controllers.CourseController",
     "Method": "GetAllCourses",
     "RelativePath": "api/Course",
@@ -61,6 +172,15 @@
         "Type": "System.Void",
         "MediaTypes": [],
         "StatusCode": 201
+      },
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[FluentValidation.Results.ValidationFailure, FluentValidation, Version=12.0.0.0, Culture=neutral, PublicKeyToken=7de548da2fbae0f0]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
       },
       {
         "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
@@ -316,5 +436,105 @@
         "StatusCode": 500
       }
     ]
+  },
+  {
+    "ContainingType": "LMS.API.Controllers.QuestionController",
+    "Method": "GetAllQuestions",
+    "RelativePath": "api/Question",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS.API.Controllers.QuestionController",
+    "Method": "CreateQuestion",
+    "RelativePath": "api/Question",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "LMS.Application.DTOs.CreateQuestionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS.API.Controllers.QuestionController",
+    "Method": "GetQuestionById",
+    "RelativePath": "api/Question/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS.API.Controllers.QuestionController",
+    "Method": "UpdateQuestion",
+    "RelativePath": "api/Question/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "LMS.Application.DTOs.UpdateQuestionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS.API.Controllers.QuestionController",
+    "Method": "DeleteQuestion",
+    "RelativePath": "api/Question/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS.API.Controllers.QuestionController",
+    "Method": "UpdateQuestionAndChoices",
+    "RelativePath": "api/Question/UpdateQuestionAndChoices/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "LMS.Application.DTOs.QuestionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

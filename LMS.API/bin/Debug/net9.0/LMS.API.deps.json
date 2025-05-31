@@ -855,6 +855,9 @@
       "LMS.Application/1.0.0": {
         "dependencies": {
           "AutoMapper": "14.0.0",
+          "FluentValidation": "12.0.0",
+          "FluentValidation.AspNetCore": "11.3.0",
+          "FluentValidation.DependencyInjectionExtensions": "12.0.0",
           "LMS.Domain": "1.0.0",
           "NSwag.AspNetCore": "14.4.0"
         },

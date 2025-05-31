@@ -15,9 +15,6 @@ public partial class Question
 
     public string QuestionText { get; set; } = null!;
 
-    [StringLength(20)]
-    public string DifficultyLevel { get; set; } = null!;
-
     public bool IsCode { get; set; }
 
     public bool HasMultipleAnswers { get; set; }

@@ -7,40 +7,24 @@
       "RelativeMoniker": "D:0:0:{09EC1E86-DB50-45F5-84BE-AF5AB1C8B395}|LMS.API\\LMS.API.csproj|solutionrelative:lms.api\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09EC1E86-DB50-45F5-84BE-AF5AB1C8B395}|LMS.API\\LMS.API.csproj|c:\\doancoso\\lms\\lmsapp\\lms.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09EC1E86-DB50-45F5-84BE-AF5AB1C8B395}|LMS.API\\LMS.API.csproj|solutionrelative:lms.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9CE8B35-6781-495E-A077-643601AF861E}|LMS.Application\\LMS.Application.csproj|c:\\doancoso\\lms\\lmsapp\\lms.application\\dtovalidations\\updatecoursevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9CE8B35-6781-495E-A077-643601AF861E}|LMS.Application\\LMS.Application.csproj|solutionrelative:lms.application\\dtovalidations\\updatecoursevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9CE8B35-6781-495E-A077-643601AF861E}|LMS.Application\\LMS.Application.csproj|c:\\doancoso\\lms\\lmsapp\\lms.application\\dtovalidations\\createcoursevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9CE8B35-6781-495E-A077-643601AF861E}|LMS.Application\\LMS.Application.csproj|solutionrelative:lms.application\\dtovalidations\\createcoursevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09EC1E86-DB50-45F5-84BE-AF5AB1C8B395}|LMS.API\\LMS.API.csproj|c:\\doancoso\\lms\\lmsapp\\lms.api\\lms.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{09EC1E86-DB50-45F5-84BE-AF5AB1C8B395}|LMS.API\\LMS.API.csproj|solutionrelative:lms.api\\lms.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9CE8B35-6781-495E-A077-643601AF861E}|LMS.Application\\LMS.Application.csproj|c:\\doancoso\\lms\\lmsapp\\lms.application\\lms.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{C9CE8B35-6781-495E-A077-643601AF861E}|LMS.Application\\LMS.Application.csproj|solutionrelative:lms.application\\lms.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09EC1E86-DB50-45F5-84BE-AF5AB1C8B395}|LMS.API\\LMS.API.csproj|c:\\doancoso\\lms\\lmsapp\\lms.api\\filters\\validationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09EC1E86-DB50-45F5-84BE-AF5AB1C8B395}|LMS.API\\LMS.API.csproj|solutionrelative:lms.api\\filters\\validationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9CE8B35-6781-495E-A077-643601AF861E}|LMS.Application\\LMS.Application.csproj|c:\\doancoso\\lms\\lmsapp\\lms.application\\services\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9CE8B35-6781-495E-A077-643601AF861E}|LMS.Application\\LMS.Application.csproj|solutionrelative:lms.application\\services\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9CE8B35-6781-495E-A077-643601AF861E}|LMS.Application\\LMS.Application.csproj|c:\\doancoso\\lms\\lmsapp\\lms.application\\dtos\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9CE8B35-6781-495E-A077-643601AF861E}|LMS.Application\\LMS.Application.csproj|solutionrelative:lms.application\\dtos\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C9CE8B35-6781-495E-A077-643601AF861E}|LMS.Application\\LMS.Application.csproj|c:\\doancoso\\lms\\lmsapp\\lms.application\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9CE8B35-6781-495E-A077-643601AF861E}|LMS.Application\\LMS.Application.csproj|solutionrelative:lms.application\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CE8B35-6781-495E-A077-643601AF861E}|LMS.Application\\LMS.Application.csproj|c:\\doancoso\\lms\\lmsapp\\lms.application\\services\\questionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CE8B35-6781-495E-A077-643601AF861E}|LMS.Application\\LMS.Application.csproj|solutionrelative:lms.application\\services\\questionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09EC1E86-DB50-45F5-84BE-AF5AB1C8B395}|LMS.API\\LMS.API.csproj|c:\\doancoso\\lms\\lmsapp\\lms.api\\controllers\\questioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09EC1E86-DB50-45F5-84BE-AF5AB1C8B395}|LMS.API\\LMS.API.csproj|solutionrelative:lms.api\\controllers\\questioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09EC1E86-DB50-45F5-84BE-AF5AB1C8B395}|LMS.API\\LMS.API.csproj|c:\\doancoso\\lms\\lmsapp\\lms.api\\controllers\\choicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09EC1E86-DB50-45F5-84BE-AF5AB1C8B395}|LMS.API\\LMS.API.csproj|solutionrelative:lms.api\\controllers\\choicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09EC1E86-DB50-45F5-84BE-AF5AB1C8B395}|LMS.API\\LMS.API.csproj|c:\\doancoso\\lms\\lmsapp\\lms.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09EC1E86-DB50-45F5-84BE-AF5AB1C8B395}|LMS.API\\LMS.API.csproj|solutionrelative:lms.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,125 +34,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UpdateCourseValidator.cs",
-              "DocumentMoniker": "C:\\DoAnCoSo\\LMS\\LMSApp\\LMS.Application\\DTOValidations\\UpdateCourseValidator.cs",
-              "RelativeDocumentMoniker": "LMS.Application\\DTOValidations\\UpdateCourseValidator.cs",
-              "ToolTip": "C:\\DoAnCoSo\\LMS\\LMSApp\\LMS.Application\\DTOValidations\\UpdateCourseValidator.cs",
-              "RelativeToolTip": "LMS.Application\\DTOValidations\\UpdateCourseValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T18:47:22.765Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\DoAnCoSo\\LMS\\LMSApp\\LMS.API\\Program.cs",
-              "RelativeDocumentMoniker": "LMS.API\\Program.cs",
-              "ToolTip": "C:\\DoAnCoSo\\LMS\\LMSApp\\LMS.API\\Program.cs",
-              "RelativeToolTip": "LMS.API\\Program.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwDQAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T18:27:41.152Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LMS.Application",
-              "DocumentMoniker": "C:\\DoAnCoSo\\LMS\\LMSApp\\LMS.Application\\LMS.Application.csproj",
-              "RelativeDocumentMoniker": "LMS.Application\\LMS.Application.csproj",
-              "ToolTip": "C:\\DoAnCoSo\\LMS\\LMSApp\\LMS.Application\\LMS.Application.csproj",
-              "RelativeToolTip": "LMS.Application\\LMS.Application.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-30T18:16:53.91Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CreateCourseValidator.cs",
-              "DocumentMoniker": "C:\\DoAnCoSo\\LMS\\LMSApp\\LMS.Application\\DTOValidations\\CreateCourseValidator.cs",
-              "RelativeDocumentMoniker": "LMS.Application\\DTOValidations\\CreateCourseValidator.cs",
-              "ToolTip": "C:\\DoAnCoSo\\LMS\\LMSApp\\LMS.Application\\DTOValidations\\CreateCourseValidator.cs",
-              "RelativeToolTip": "LMS.Application\\DTOValidations\\CreateCourseValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T18:15:28.411Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ValidationFilter.cs",
-              "DocumentMoniker": "C:\\DoAnCoSo\\LMS\\LMSApp\\LMS.API\\Filters\\ValidationFilter.cs",
-              "RelativeDocumentMoniker": "LMS.API\\Filters\\ValidationFilter.cs",
-              "ToolTip": "C:\\DoAnCoSo\\LMS\\LMSApp\\LMS.API\\Filters\\ValidationFilter.cs",
-              "RelativeToolTip": "LMS.API\\Filters\\ValidationFilter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T18:12:27.004Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LMS.API",
-              "DocumentMoniker": "C:\\DoAnCoSo\\LMS\\LMSApp\\LMS.API\\LMS.API.csproj",
-              "RelativeDocumentMoniker": "LMS.API\\LMS.API.csproj",
-              "ToolTip": "C:\\DoAnCoSo\\LMS\\LMSApp\\LMS.API\\LMS.API.csproj",
-              "RelativeToolTip": "LMS.API\\LMS.API.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-30T18:08:54.738Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CourseService.cs",
-              "DocumentMoniker": "C:\\DoAnCoSo\\LMS\\LMSApp\\LMS.Application\\Services\\CourseService.cs",
-              "RelativeDocumentMoniker": "LMS.Application\\Services\\CourseService.cs",
-              "ToolTip": "C:\\DoAnCoSo\\LMS\\LMSApp\\LMS.Application\\Services\\CourseService.cs",
-              "RelativeToolTip": "LMS.Application\\Services\\CourseService.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAA9wBQAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T17:42:18.135Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CourseDto.cs",
-              "DocumentMoniker": "C:\\DoAnCoSo\\LMS\\LMSApp\\LMS.Application\\DTOs\\CourseDto.cs",
-              "RelativeDocumentMoniker": "LMS.Application\\DTOs\\CourseDto.cs",
-              "ToolTip": "C:\\DoAnCoSo\\LMS\\LMSApp\\LMS.Application\\DTOs\\CourseDto.cs",
-              "RelativeToolTip": "LMS.Application\\DTOs\\CourseDto.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T17:45:32.677Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "C:\\DoAnCoSo\\LMS\\LMSApp\\LMS.Application\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "LMS.Application\\MappingProfile.cs",
-              "ToolTip": "C:\\DoAnCoSo\\LMS\\LMSApp\\LMS.Application\\MappingProfile.cs",
-              "RelativeToolTip": "LMS.Application\\MappingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAACEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T17:34:52.583Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -177,9 +44,74 @@
               "RelativeDocumentMoniker": "LMS.API\\Controllers\\CourseController.cs",
               "ToolTip": "C:\\DoAnCoSo\\LMS\\LMSApp\\LMS.API\\Controllers\\CourseController.cs",
               "RelativeToolTip": "LMS.API\\Controllers\\CourseController.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAwwEwAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T16:45:23.586Z",
+              "WhenOpened": "2025-05-31T05:49:15.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\DoAnCoSo\\LMS\\LMSApp\\LMS.Application\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "LMS.Application\\MappingProfile.cs",
+              "ToolTip": "C:\\DoAnCoSo\\LMS\\LMSApp\\LMS.Application\\MappingProfile.cs",
+              "RelativeToolTip": "LMS.Application\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T05:41:12.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "QuestionController.cs",
+              "DocumentMoniker": "C:\\DoAnCoSo\\LMS\\LMSApp\\LMS.API\\Controllers\\QuestionController.cs",
+              "RelativeDocumentMoniker": "LMS.API\\Controllers\\QuestionController.cs",
+              "ToolTip": "C:\\DoAnCoSo\\LMS\\LMSApp\\LMS.API\\Controllers\\QuestionController.cs",
+              "RelativeToolTip": "LMS.API\\Controllers\\QuestionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T05:31:53.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChoiceController.cs",
+              "DocumentMoniker": "C:\\DoAnCoSo\\LMS\\LMSApp\\LMS.API\\Controllers\\ChoiceController.cs",
+              "RelativeDocumentMoniker": "LMS.API\\Controllers\\ChoiceController.cs",
+              "ToolTip": "C:\\DoAnCoSo\\LMS\\LMSApp\\LMS.API\\Controllers\\ChoiceController.cs",
+              "RelativeToolTip": "LMS.API\\Controllers\\ChoiceController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T05:16:42.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QuestionService.cs",
+              "DocumentMoniker": "C:\\DoAnCoSo\\LMS\\LMSApp\\LMS.Application\\Services\\QuestionService.cs",
+              "RelativeDocumentMoniker": "LMS.Application\\Services\\QuestionService.cs",
+              "ToolTip": "C:\\DoAnCoSo\\LMS\\LMSApp\\LMS.Application\\Services\\QuestionService.cs",
+              "RelativeToolTip": "LMS.Application\\Services\\QuestionService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwBoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T05:10:38.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\DoAnCoSo\\LMS\\LMSApp\\LMS.API\\Program.cs",
+              "RelativeDocumentMoniker": "LMS.API\\Program.cs",
+              "ToolTip": "C:\\DoAnCoSo\\LMS\\LMSApp\\LMS.API\\Program.cs",
+              "RelativeToolTip": "LMS.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T05:09:23.433Z",
               "EditorCaption": ""
             }
           ]
