@@ -1,0 +1,101 @@
+{% extends "admin/base_site.html" %}
+{% load i18n admin_urls static admin_modify %}
+
+{% block title %}{{ title }} | {{ site_title|default:_('Django site admin') }}{% endblock %}
+
+{% block breadcrumbs %}
+<div class="breadcrumbs">
+<a href="{% url 'admin:index' %}">{% trans 'Home' %}</a>
+&rsaquo; <a href="{% url 'admin:app_list' app_label=opts.app_label %}">{{ opts.app_config.verbose_name }}</a>
+&rsaquo; <a href="{% url opts|admin_urlname:'changelist' %}">{{ opts.verbose_name_plural|capfirst }}</a>
+&rsaquo; {{ title }}
+</div>
+{% endblock %}
+
+{% block content %}
+<h1>{{ title }}</h1>
+
+<div style="margin: 20px 0; padding: 15px; background: #f0f0f0; border-radius: 5px;">
+    <h3>📋 Bài tập: {{ assignment.title }}</h3>
+    <p><strong>Bài học:</strong> {{ assignment.lesson.title }}</p>
+    <p><strong>Số câu hỏi hiện tại:</strong> {{ assignment.questions.count }}</p>
+</div>
+
+<div style="margin: 20px 0; padding: 15px; background: #e8f4f8; border-radius: 5px; border-left: 4px solid #007bff;">
+    <h3>📝 Format Excel:</h3>
+    <table style="width: 100%; border-collapse: collapse; margin-top: 10px;">
+        <thead>
+            <tr style="background: #007bff; color: white;">
+                <th style="padding: 8px; border: 1px solid #ddd;">Cột</th>
+                <th style="padding: 8px; border: 1px solid #ddd;">Tên</th>
+                <th style="padding: 8px; border: 1px solid #ddd;">Mô tả</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="padding: 8px; border: 1px solid #ddd;">1</td>
+                <td style="padding: 8px; border: 1px solid #ddd;"><strong>text</strong></td>
+                <td style="padding: 8px; border: 1px solid #ddd;">Nội dung câu hỏi (bắt buộc)</td>
+            </tr>
+            <tr>
+                <td style="padding: 8px; border: 1px solid #ddd;">2</td>
+                <td style="padding: 8px; border: 1px solid #ddd;"><strong>A</strong></td>
+                <td style="padding: 8px; border: 1px solid #ddd;">Đáp án A (bắt buộc)</td>
+            </tr>
+            <tr>
+                <td style="padding: 8px; border: 1px solid #ddd;">3</td>
+                <td style="padding: 8px; border: 1px solid #ddd;"><strong>B</strong></td>
+                <td style="padding: 8px; border: 1px solid #ddd;">Đáp án B (bắt buộc)</td>
+            </tr>
+            <tr>
+                <td style="padding: 8px; border: 1px solid #ddd;">4</td>
+                <td style="padding: 8px; border: 1px solid #ddd;"><strong>C</strong></td>
+                <td style="padding: 8px; border: 1px solid #ddd;">Đáp án C (bắt buộc)</td>
+            </tr>
+            <tr>
+                <td style="padding: 8px; border: 1px solid #ddd;">5</td>
+                <td style="padding: 8px; border: 1px solid #ddd;"><strong>D</strong></td>
+                <td style="padding: 8px; border: 1px solid #ddd;">Đáp án D (bắt buộc)</td>
+            </tr>
+            <tr>
+                <td style="padding: 8px; border: 1px solid #ddd;">6</td>
+                <td style="padding: 8px; border: 1px solid #ddd;"><strong>correct</strong></td>
+                <td style="padding: 8px; border: 1px solid #ddd;">Đáp án đúng: A, B, C hoặc D (bắt buộc)</td>
+            </tr>
+            <tr>
+                <td style="padding: 8px; border: 1px solid #ddd;">7</td>
+                <td style="padding: 8px; border: 1px solid #ddd;"><strong>explanation</strong></td>
+                <td style="padding: 8px; border: 1px solid #ddd;">Giải thích (tùy chọn)</td>
+            </tr>
+            <tr>
+                <td style="padding: 8px; border: 1px solid #ddd;">8</td>
+                <td style="padding: 8px; border: 1px solid #ddd;"><strong>points</strong></td>
+                <td style="padding: 8px; border: 1px solid #ddd;">Điểm cho câu hỏi (tùy chọn, mặc định 1)</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <p style="margin-top: 15px;"><strong>💡 Lưu ý:</strong></p>
+    <ul>
+        <li>Dòng đầu tiên có thể là header (tên cột) hoặc dữ liệu</li>
+        <li>Nếu một dòng lỗi, hệ thống sẽ bỏ qua và tiếp tục với dòng tiếp theo</li>
+        <li>Các câu hỏi sẽ được thêm vào cuối danh sách hiện tại</li>
+    </ul>
+</div>
+
+<form method="post" enctype="multipart/form-data" style="margin: 20px 0;">
+    {% csrf_token %}
+    
+    <div style="padding: 15px; background: white; border: 1px solid #ddd; border-radius: 5px;">
+        <h3>📤 Upload File Excel</h3>
+        {{ form.as_p }}
+    </div>
+    
+    <div style="margin-top: 20px;">
+        <input type="submit" value="📥 Import Câu Hỏi" class="default" style="padding: 10px 20px; font-size: 14px; background: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer;">
+        <a href="{% url opts|admin_urlname:'change' assignment.id %}" style="margin-left: 10px; padding: 10px 20px; background: #6c757d; color: white; text-decoration: none; border-radius: 5px; display: inline-block;">← Quay lại</a>
+    </div>
+</form>
+
+{% endblock %}
+
